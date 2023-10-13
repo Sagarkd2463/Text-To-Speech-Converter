@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="StyleTextToSpeech.css">
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+          <button class="btn" id="resume">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <button class="btn" id="pause">
+            <i class="fa-solid fa-pause"></i>
+          </button>
+        </div>
+        <textarea
+          placeholder="Enter some text here..."
+          id="txt"
+          rows="10"
+        ></textarea>
+        <button id="submit" type="submit">Submit</button>
+      </div>
+</body>
+
+<script src="ScriptTextToSpeech.js"></script>
+</html>
